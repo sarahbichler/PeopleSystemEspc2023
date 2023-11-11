@@ -1,17 +1,22 @@
 package tech.sarahbichler.appMain;
 
+import java.time.LocalDate;
+
+import tech.sarahbichler.composicao.Endereco;
 import tech.sarahbichler.pessoas.*;
 
 public class AplicacaoMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Pessoa novaPessoa01 = new Pessoa();
-		Funcionario novoFunc01 = new Funcionario();
-		Cliente novoCli01 = new Cliente();
+		Funcionario func1 = new Funcionario();
+		Cliente cli1 = new Cliente();
+		Endereco end1 = new Endereco();
+		LocalDate nascCli1 = LocalDate.of(2000, 12, 1);
 		
-		novoFunc01.cadastrar("D15","desenvolvedora", "sarah", "02/08/1994", "15000", "02/10/2023", "João Pessoa", "9999.999");
-		novoCli01.cadastrar("C10", "publicitaria", "Vanessa", "14/07/1996", "aqui", "9999.999");
+		
+		
+		cli1.cadatrar(null, null, end1, null);
+		cli1.cadatrar("5425", "vendedor", "eduardo", nascCli1, end1, "839999999");
 	}
 
 }
