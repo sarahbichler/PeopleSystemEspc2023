@@ -2,7 +2,7 @@ package tech.sarahbichler.pessoas;
 
 import java.time.LocalDate;
 
-import tech.sarahbichler.composicao.Endereco;
+import tech.sarahbichler.composicao.*;
 
 public class Cliente extends Pessoa{
 	private String codigo;
