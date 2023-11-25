@@ -8,12 +8,12 @@ public class Cliente extends Pessoa{
 	private String codigo;
 	private String profissao;
 	
-	public void cadatrar(String codigo, String profissao,
+	public void cadastrar(String codigo, String profissao,
 			String nome, LocalDate dataNascimento,
 			Endereco endereco, String telsContato) {
 		this.codigo = codigo;
 		this.profissao = profissao;
-		cadatrar(nome, dataNascimento, endereco, telsContato);
+		cadastrar(nome, dataNascimento, endereco, telsContato);
 	}
 
 	public String getCodigo() {

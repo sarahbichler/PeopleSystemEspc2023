@@ -2,8 +2,10 @@ package tech.sarahbichler.pessoas;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.List;
 
 import tech.sarahbichler.composicao.Endereco;
+import tech.sarahbichler.composicao.Telefone;
 
 public class Pessoa {
 	private String nome;
@@ -11,7 +13,7 @@ public class Pessoa {
 	private Endereco endereco;
 	private String telsContato;
 	
-	public void cadatrar(String nome, LocalDate dataNascimento,
+	public void cadastrar(String nome, LocalDate dataNascimento,
 			Endereco endereco, String telsContato) {
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;

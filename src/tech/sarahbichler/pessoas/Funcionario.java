@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 import tech.sarahbichler.composicao.Endereco;
 
+import tech.sarahbichler.composicao.*;
+
 public class Funcionario extends Pessoa{
 	
 		private int matricula;
@@ -19,7 +21,7 @@ public class Funcionario extends Pessoa{
 			this.cargo = cargo;
 			this.salario = salario;
 			this.dataAdmissao = dataAdmissao;
-			cadatrar(nome, dataNascimento, endereco, telsContato);
+			cadastrar(nome, dataNascimento, endereco, telsContato);
 		}
 		
 		public void reajustarSalario(double percentual) {

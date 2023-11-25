@@ -46,6 +46,11 @@ public class Endereco{
 	public void setPais(String pais) {
 		this.pais = pais;
 	}
+	public void cadastrarEnd(String string, String string2, String string3, String string4, String string5,
+			String string6) {
+		// TODO Auto-generated method stub
+		
+	}
     
     
 
